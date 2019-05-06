@@ -1,12 +1,26 @@
 {
   "name": "twitter",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamyahamid/twitter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lamyahamid/twitter/issues"
+  },
+  "homepage": "https://github.com/lamyahamid/twitter#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.5"
+  }
 }

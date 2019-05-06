@@ -1,0 +1,20 @@
+
+   
+    <h1>All The Tweets</h1>
+    
+    
+    <ul>
+    <% for (i in tweets) { %>
+      <li>
+        <%= tweets[i].text %> 
+        
+
+      </li>
+      <a href="/tweets/<%= tweets[i]._id  %>">SHOW</a>
+      <a href="/tweets/<%= tweets[i]._id  %>/edit">EDIT</a>
+      <form action="/tweets/<%= tweets[i]._id  %>?_method=DELETE" method="POST">
+        <input type="submit" value="DELETE"/>
+      </form>
+      <% } %>
+    </ul>
+    
